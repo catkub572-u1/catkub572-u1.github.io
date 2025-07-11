@@ -4,7 +4,7 @@ version: '3.8'
 services:
   tiny11-display1:
     image: dockurr/windows
-    container_name: WIN อะไรไม่รู้
+    container_name: WIN
     environment:
       VERSION: "https://archive.org/download/tiny11-2311/tiny11%202311%20x64.iso"
       USERNAME: "user"
@@ -41,7 +41,7 @@ version: '3.8'
 services:
   tiny11-display1:
     image: dockurr/windows
-    container_name: WIN อะไรไม่รู้
+    container_name: WIN
     environment:
       VERSION: "https://archive.org/download/tiny11-2311/tiny11%202311%20x64.iso"
       USERNAME: "user"
